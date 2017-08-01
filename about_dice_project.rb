@@ -9,7 +9,7 @@ class DiceSet
   end
 
   def roll(num)
-    @values = num.times.inject([]){ |array| array.push (rand(6) + 1) }
+    @values = num.times.inject([]){ |array| array.push (rand(5) + 1) }
   end
 
 end
